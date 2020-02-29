@@ -36,9 +36,7 @@ class GildedRose {
                 }
             }
 
-            if (!merchandises[i].name.equals("Sulfuras, Hand of Ragnaros")) {
-                merchandises[i].sell_in = merchandises[i].sell_in - 1;
-            }
+            update_sell_in(i);
 
             if (merchandises[i].sell_in < 0) {
                 if (!merchandises[i].name.equals("Aged Brie")) {
@@ -57,6 +55,12 @@ class GildedRose {
                     }
                 }
             }
+        }
+    }
+
+    private void update_sell_in(int i) {
+        if (!merchandises[i].name.equals("Sulfuras, Hand of Ragnaros")) {
+            merchandises[i].sell_in = merchandises[i].sell_in - 1;
         }
     }
 }
