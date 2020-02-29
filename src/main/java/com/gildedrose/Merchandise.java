@@ -14,4 +14,20 @@ public class Merchandise {
         this.quality = quality;
     }
 
+    public void updateSellIn() {
+        if (this.name == "Sulfuras, Hand of Ragnaros") {
+            return;
+        }
+
+        this.sell_in = this.sell_in--;
+    }
+
+    public void updateQualityWithDuringShelfLife() {
+        this.quality = this.quality--;
+    }
+
+    public void updateQualityWithExpire() {
+        this.quality = this.quality - 2;
+    }
+
 }
