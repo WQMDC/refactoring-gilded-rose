@@ -9,7 +9,7 @@ public class CalculateAgedBrieQuality {
     }
 
     public int updateQualityWithDuringSelfLife() {
-        return this.quality == 50 ? 50 : this.quality ++;
+        return this.quality == 50 ? 50 : this.quality + 1;
     }
 
     public int updateQualityWithExpire() {

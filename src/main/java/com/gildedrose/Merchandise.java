@@ -15,8 +15,8 @@ public class Merchandise {
     }
 
     public void updateMerchandise() {
-        this.updateSellIn();
         this.updateQuality();
+        this.updateSellIn();
     }
 
     private void updateQuality() {
@@ -71,7 +71,7 @@ public class Merchandise {
             return;
         }
 
-        this.sell_in = this.sell_in--;
+        this.sell_in = this.sell_in - 1;
     }
 
 }

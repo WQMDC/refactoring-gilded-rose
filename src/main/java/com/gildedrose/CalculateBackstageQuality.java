@@ -15,7 +15,7 @@ public class CalculateBackstageQuality {
             return this.quality;
         }
 
-        if (this.self_in < 11 && self_in >= 6) {
+        if (self_in >= 6 && this.self_in < 11) {
             return this.quality + 2;
         }
 
@@ -23,7 +23,7 @@ public class CalculateBackstageQuality {
             return this.quality + 3;
         }
 
-        return this.quality ++;
+        return this.quality + 1;
     }
 
     public int updateQualityWithExpire() {

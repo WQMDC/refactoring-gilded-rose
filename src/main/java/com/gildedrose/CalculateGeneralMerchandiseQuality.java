@@ -9,7 +9,7 @@ public class CalculateGeneralMerchandiseQuality {
     }
 
     public int updateQualityWithDuringSelfLife() {
-        return this.quality == 0 ? 0 : this.quality --;
+        return this.quality == 0 ? 0 : this.quality - 1;
     }
 
     public int updateQualityWithExpire() {
