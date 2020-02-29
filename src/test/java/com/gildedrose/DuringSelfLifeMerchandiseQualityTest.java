@@ -6,7 +6,7 @@ import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertThat;
 
-public class DuringShelfLifeMerchandiseQualityTest {
+public class DuringSelfLifeMerchandiseQualityTest {
 
     @Test
     public void should_decrement_quality_with_self_life_when_general_merchandise() {
