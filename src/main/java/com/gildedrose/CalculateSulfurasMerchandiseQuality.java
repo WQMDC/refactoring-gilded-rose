@@ -1,10 +1,10 @@
 package com.gildedrose;
 
-public class CalculateSulfurasAndHandOfRagnarosMerchandiseQuality {
+public class CalculateSulfurasMerchandiseQuality {
 
     private int quality;
 
-    CalculateSulfurasAndHandOfRagnarosMerchandiseQuality(int quality) {
+    CalculateSulfurasMerchandiseQuality(int quality) {
         this.quality = quality;
     }
 
